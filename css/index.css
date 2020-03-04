@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+	margin-bottom: 5px;
+}
+
+/*----------------------MOVIL-----------------------*/
+
+@media(max-width: 520px){
+
+	.logo > img {
+  			width: 50px;
+  			height: 50px;
+	}
+
+	div{
+		display:flex;
+		justify-content: center;
+
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	.hamburger{
+		background-color: #484848;
+		color: white;
+		margin: 0;
+		padding: 5px;
+		display:flex;
+		justify-content: flex-end;
+	}
+
+	.menu{
+
+		visibility: hidden;
+		display: none;
+	}
+
+	.product{
+		border-style:solid;
+    	border-width:1px;  
+		border-color: #D3D3D3;
+		margin: 10px;
+		text-align: justify;
+	}
+
+	.social{
+
+			list-style: none;
+			display:flex;
+			flex-direction: row;
+			justify-content: space-around;
+
+			border-top-style: solid;
+			border-width: 1px;
+			border-color: #D3D3D3;
+			margin-top: 5px;
+			padding:20px;
+
+	}
+
+}
+
+
+/*-------------------------------TABLET-------------------------------------*/
+
+@media(min-width:521px){
+
+	.logo > img {
+  				width: 50px;
+  				height: 50px;
+  				margin-top: 12px;
+ 
+	}
+
+	h1{
+		margin-right: 100px;
+	}
+
+	.top{
+		display:flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin-top: 20px;
+
+	}
+
+	.hamburger{
+		background-color: #484848;
+		color: white;
+		margin: 0;
+		padding: 5px;
+		display:flex;
+		justify-content: flex-end;
+	}
+
+	.menu{
+
+		visibility: hidden;
+		display: none;
+	}
+
+	.product{
+		border-style:solid;
+    	border-width:1px;  
+		border-color: #D3D3D3;
+		margin: 10px;
+		text-align: justify;
+	}
+
+	.fruit{
+			display:flex;
+			justify-content: center;
+
+	}
+
+	.social{
+
+			list-style: none;
+			display:flex;
+			flex-direction: row;
+			justify-content: space-around;
+
+			border-top-style: solid;
+			border-width: 1px;
+			border-color: #D3D3D3;
+			margin-top: 5px;
+			padding:20px;
+
+	}
+
+}
+
+
+/*-------------------------------DESKTOP-------------------------------------*/
+
+
+@media(min-width:1024px){
+
+	.logo > img {
+	  width: 50px;
+	  height: 50px;
+ 
+	}
+
+	h1{
+		margin-right: 200px;
+	}
+
+	.top{
+		display:flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin-top: 20px;
+	}
+
+	.hamburger{
+	
+		visibility: hidden;
+		display: none;
+	}
+
+	.menu{
+ 		visibility: visible;
+ 		list-style: none;
+
+		display:flex;
+		flex-direction: row;
+		justify-content: flex-end;
+	
+
+		background-color: 	#484848;
+		color: white;
+		padding: 20px;
+	}
+
+	li{
+		margin-left: 55px;
+	}
+
+	.mainp{
+		display:flex;
+		flex-direction: row;
+
+	}
+
+	.product{
+
+		border-style:solid;
+   	 border-width:1px;  
+		border-color: #D3D3D3;
+		padding: 5px;
+		margin: 10px;
+		text-align: justify;
+	}
+
+
+	.social{
+
+			list-style: none;
+			display:flex;
+			flex-direction: row;
+			justify-content: space-around;
+
+			border-top-style: solid;
+			border-width: 1px;
+			border-color: #D3D3D3;
+			margin-top: 5px;
+			padding:20px;
+
+	}
+
+}
+
+
+
+
+
+
